@@ -1,0 +1,16 @@
+#it1 =  range(3).__iter__()
+it1 =  iter(range(3))
+print(it1)
+#print(it1.__next__())
+# print(next(it1))
+# print(next(it1))
+# print(next(it1))
+# print(next(it1))
+
+ldata= [20,60,30,10]
+it = iter(ldata)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it, 0))
