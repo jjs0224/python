@@ -1,14 +1,14 @@
 ldata1 = [10, 20, 30, 40]
 ldata2 = [100, 200, 300, 400]
 ldata3 = ldata1 + ldata2
-print(ldata3)
+print(ldata3) #[10, 20, 30, 40, 100, 200, 300, 400]
 
 import numpy as np
 
 arr1 = np.array(ldata1)
 arr2 = np.array(ldata2)
 arr3 = arr1 + arr2 #shape (len(arr1) and len(arr2) 가 같아야함!!!!!)
-print(arr3)
+print(arr3) #[110 220 330 440]
 print()
 
 arr4 = np.array([[10, 20, 30],
@@ -41,4 +41,5 @@ print(arr7)
 print()
 print(arr6 > arr7)
 print()
+
 print(arr7 > 5) #each value in arr7, 5보다 큰지 비교
